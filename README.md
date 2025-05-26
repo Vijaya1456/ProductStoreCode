@@ -67,7 +67,8 @@ A full-stack web application built with Angular and .NET Core that allows users 
 ### Backend:
 
 ```bash
-cd FullStackApp
+
+cd C:\Users\kotes\Downloads\ProductStore\
  dotnet run
 ```
 
@@ -76,7 +77,7 @@ Visit Swagger: [https://localhost:5001/swagger](https://localhost:51922/swagger)
 ### Frontend:
 
 ```bash
-cd product-store-ui
+cd C:\Users\kotes\Documents\ProductStore\AngularApp\product-store-ui
 npm install
 ng serve
 ```
