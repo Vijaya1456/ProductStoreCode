@@ -71,7 +71,7 @@ cd FullStackApp
  dotnet run
 ```
 
-Visit Swagger: [https://localhost:5001/swagger](https://localhost:5001/swagger)
+Visit Swagger: [https://localhost:5001/swagger](https://localhost:51922/swagger)
 
 ### Frontend:
 
@@ -105,6 +105,4 @@ This project is licensed under the MIT License. Feel free to fork and customize!
 
 Thanks to Bootstrap, Angular, and the .NET Core community for their fantastic tools and documentation!
 
----
 
-> *Built with ❤️ by Koteswara Rao Tankasala*
