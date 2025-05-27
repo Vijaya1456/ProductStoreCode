@@ -10,7 +10,7 @@ A full-stack web application built with Angular and .NET Core that allows users 
 | ----------- | ------------------------------------ |
 | Frontend    | Angular 15+ (Standalone Components)  |
 | Styling     | Bootstrap 5                          |
-| Backend     | .NET 6 / ASP.NET Core Web API        |
+| Backend     | .NET 9.0 / ASP.NET Core Web API        |
 | ORM         | Entity Framework Core                |
 | Auth (opt.) | JWT (JSON Web Tokens)                |
 | Database    | SQL Server                           |
