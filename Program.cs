@@ -1,5 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ProductStore.Data;
+using ProductStore.Repositories;
+using ProductStore.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,9 +17,10 @@ builder.Services.AddCors(options =>
 });
 
 builder.Services.AddControllers();
-builder.Services.AddDbContext<AppDbContext>(options =>
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

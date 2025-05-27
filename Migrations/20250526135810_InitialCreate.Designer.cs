@@ -10,7 +10,7 @@ using ProductStore.Data;
 
 namespace ProductStore.Migrations
 {
-    [DbContext(typeof(AppDbContext))]
+    [DbContext(typeof(ApplicationDbContext))]
     [Migration("20250526135810_InitialCreate")]
     partial class InitialCreate
     {
