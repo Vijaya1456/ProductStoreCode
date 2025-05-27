@@ -72,7 +72,7 @@ cd ProductStore
  dotnet run
 ```
 
-Visit Swagger: [https://localhost:5001/swagger](https://localhost:5001/swagger)
+Visit Swagger: [https://localhost:51922/swagger/index.html](https://localhost:51922/swagger/index.html)
 
 ### Frontend:
 
