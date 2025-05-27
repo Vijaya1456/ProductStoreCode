@@ -20,12 +20,13 @@ A full-stack web application built with Angular and .NET Core that allows users 
 
 ## 📁 Project Structure
 
-### 🔹 Backend (`/FullStackApp`)
+### 🔹 Backend (`/ProductStore`)
 
 * **Controllers/** – `ProductsController.cs`
 * **Models/** – `Product.cs`
 * **Data/** – `ApplicationDbContext.cs`
 * **Repositories/** – `IProductRepository.cs`, `ProductRepository.cs`
+* **Services/** – `IProductService.cs`, `ProductService.cs`
 * **Program.cs** – Middleware config (Swagger, EF Core, Auth)
 
 ### 🔹 Frontend (`/product-store-ui`)
@@ -67,17 +68,16 @@ A full-stack web application built with Angular and .NET Core that allows users 
 ### Backend:
 
 ```bash
-
-cd C:\Users\kotes\Downloads\ProductStore\
+cd ProductStore
  dotnet run
 ```
 
-Visit Swagger: [https://localhost:5001/swagger](https://localhost:51922/swagger)
+Visit Swagger: [https://localhost:5001/swagger](https://localhost:5001/swagger)
 
 ### Frontend:
 
 ```bash
-cd C:\Users\kotes\Documents\ProductStore\AngularApp\product-store-ui
+cd product-store-ui
 npm install
 ng serve
 ```
@@ -89,12 +89,14 @@ Visit App: [http://localhost:4200](http://localhost:4200)
 ## ✅ Design Patterns & Practices
 
 * Repository Pattern
+* Service + Repository Pattern ✅
 * Dependency Injection
 * Separation of Concerns
 * Angular Standalone Components
 * DTO Binding in Web API
 
 ---
+
 
 ## 📄 License
 
